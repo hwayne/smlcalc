@@ -1,0 +1,10 @@
+Group (smlcalc.cm)
+is
+  charstream.sig
+  stringstream.sml
+  token.sml
+  reader.sig
+  reader.sml
+  lexerfn.sml
+  (*brainsplat.sml*)
+$/basis.cm

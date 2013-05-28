@@ -37,30 +37,42 @@ If you don't want to define any variables or functions, you can use solve instea
 
 solve("3*(2-1)");
 
-You can test it with <use "test.sml";>.
+You can test it with 'use "test.sml";'.
 -
 
 {Logical Operators}
 
 SMLcalc has a boolean type designed to handle logical operators. It lexes the following symbols:
 
-true -> TRUE
-false -> FALSE
-not -> NOT
-&& -> AND
-/& -> NAND
-|| -> OR
-/| -> NOR
-^^ -> XOR
+'true' -> TRUE
+
+'false' -> FALSE
+
+'not' -> NOT
+
+'&&' -> AND
+
+'/&' -> NAND
+
+'||' -> OR
+
+'/|' -> NOR
+
+'^^' -> XOR
 
 NXOR is not implemented but can be simulated with a NOT statement. SMLcalc also has the following comparison operators:
 
-< -> LESS
-<= -> LESSEQ
-> -> GREATER
->= -> GREATEREQ
-== -> EQUAL
-/= -> NOTEQUAL
+'<' -> LESS
+
+'<=' -> LESSEQ
+
+'>' -> GREATER
+
+'>=' -> GREATEREQ
+
+'==' -> EQUAL
+
+'/=' -> NOTEQUAL
 
 = is reserved for defining variables and functions.
 
